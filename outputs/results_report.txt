@@ -1,0 +1,16 @@
+output svm training:
+
+ best params founded: {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+best cross validation score: 0.6226
+accuracy best set: 0.9444
+confusion matrix: [[11  1]
+ [ 0  6]]
+class report:               precision    recall  f1-score   support
+
+     genuine       1.00      0.92      0.96        12
+        fake       0.86      1.00      0.92         6
+
+    accuracy                           0.94        18
+   macro avg       0.93      0.96      0.94        18
+weighted avg       0.95      0.94      0.95        18
+
